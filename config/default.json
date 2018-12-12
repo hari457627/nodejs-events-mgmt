@@ -1,0 +1,9 @@
+{
+//  Change the ip address when you are running your machine
+  "database":{
+    "url": "mongodb://10.9.9.26:27018/todosDB"
+  },
+  "uploads":{
+    "url": "http:"
+  }
+}

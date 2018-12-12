@@ -1,0 +1,12 @@
+version: '2'
+services:
+  event:
+    build: .
+    image: event:0.1
+    command: /event/node_modules/.bin/nodemon /event/bin/www
+    ports:
+      - "4006:4000"
+    volumes:
+      - .:/event/  
+    stdin_open: true
+    tty: true
